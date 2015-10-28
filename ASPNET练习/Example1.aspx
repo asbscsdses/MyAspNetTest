@@ -11,11 +11,15 @@
             text-align: center;
             color: #FF6600;
         }
+        h1{ border: 1px solid gray;}
+        p{ border: 1px solid gray;}
     </style>
 </head>
 <body>
     <form id="form1" runat="server">
     <div class="style1">
+        <h1>lalala</h1>
+        <p>ccc</p>
     
         练习：动态添加项，并选择输出<br />
         <br />

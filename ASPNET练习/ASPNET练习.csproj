@@ -54,6 +54,7 @@
     <Content Include="CrossPageSource.aspx" />
     <Content Include="CrossPageTarget.aspx" />
     <Content Include="CssCookie.aspx" />
+    <Content Include="db\mysite.mdb" />
     <Content Include="Example1.aspx" />
     <Content Include="image\queen.png" />
     <Content Include="jquery-1.7.2.js" />
@@ -65,6 +66,8 @@
     <Content Include="QueryStr.aspx" />
     <Content Include="ReadAllLines.aspx" />
     <Content Include="ReadAllText.aspx" />
+    <Content Include="Site1.aspx" />
+    <Content Include="SitePage.aspx" />
     <Content Include="textfiles\TextFile1.txt" />
     <Content Include="textfiles\TextFile2.txt" />
     <Content Include="Web.config" />
@@ -167,6 +170,20 @@
     </Compile>
     <Compile Include="ReadAllText.aspx.designer.cs">
       <DependentUpon>ReadAllText.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site1.aspx.cs">
+      <DependentUpon>Site1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site1.aspx.designer.cs">
+      <DependentUpon>Site1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SitePage.aspx.cs">
+      <DependentUpon>SitePage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SitePage.aspx.designer.cs">
+      <DependentUpon>SitePage.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
